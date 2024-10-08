@@ -17,6 +17,11 @@ height: 100px;
     align-items: center;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
 .logo{
     width: 60%;
     margin-left: 65px;
@@ -118,10 +123,6 @@ margin-top: 10px;
     font-size: 16px;
 }
 
-
-
-
-
 .direitosReservados{
     width: 50%;
     color: rgb(255, 255, 255);
@@ -140,11 +141,70 @@ margin-top: 10px;
     height: 50px;
 }
 
-
-
 footer{
     height: 80px;
     background-color: black;
     display: flex;
     align-items: center;
+}
+
+
+/* PÁGINA CURRICULO CSS */ 
+
+.sectionCurriculo{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.textoCurriculo{
+    border: solid 1px red;
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+}
+
+.curriculo{
+    background-color: #424242;
+    color: white;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+.textaoH1{
+    color: #424242;
+}
+
+.containerCurriculo{
+    height: 500px;
+    width: 100%;
+    border: solid 1px red;
+    border-radius: 10px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.infoCurriculo1{
+    border: solid 1px yellow;
+    height: 400px;  
+    width: 48%;
+}
+
+.infoCurriculo2{
+        border: solid 1px yellow;
+        height: 400px;  
+        width: 48%;
+        display: flex;
+        flex-direction: row;
+
+}
+
+.habilidadesUm{
+    width: 50%;
+}
+.habilidadesDois{
+    width: 50%;
 }
