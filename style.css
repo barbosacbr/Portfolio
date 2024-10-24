@@ -124,7 +124,7 @@ margin-top: 10px;
 }
 
 .direitosReservados{
-    width: 50%;
+    width: 49%;
     color: rgb(255, 255, 255);
     border: solid 1px white;
     height: 50px;
@@ -135,10 +135,13 @@ margin-top: 10px;
 
 }
 .redesSociais{
-    width: 50%;
+    width: 49%;
     color: rgb(255, 255, 255);
     border: solid 1px white;
     height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer{
@@ -146,6 +149,7 @@ footer{
     background-color: black;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 
@@ -207,4 +211,83 @@ footer{
 }
 .habilidadesDois{
     width: 50%;
+}
+
+
+
+
+
+
+.container{
+    text-align: center;
+}
+
+
+.whatsapp-button{
+    position: relative;
+    top: 25px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #f9f9f9;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s;  
+}
+
+        
+
+
+.fa.img-wpp{
+    font-size: 30px;
+    color:rgb(255, 255, 255) ;
+    transition: color 0.3s;
+    margin: 0 20px;
+}
+
+.fa.img-wpp:hover{
+    color: rgb(107, 107, 107);
+
+}
+
+.iconesRedes{
+    margin: 0 20px;
+    font-size: 30px;
+    transition: color 0.3s;
+
+
+}
+
+.iconesRedes:hover{
+    color: rgb(107, 107, 107);
+}
+
+.sombra:hover{
+    /* -webkit-filter: blur(0.8px);
+    filter: blur(0.8px);
+    -moz-filter: blur(0.8px);
+    -o-filter: blur(0.8px);
+    -ms-filter: blur(0.8px); */
+    /* border-bottom: solid 1px white; */
+    
+  
+}
+
+/*
+porfolio  */ 
+
+.sessaoPortfolio{
+    border: solid 1px red;
+    height: 770px;
+}
+.textoPortfolio{
+    border: solid 2px rgb(3, 141, 255);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagensProjetos{
+    border: solid 3px rgb(255, 251, 16);
+    height: 613px;
 }
